@@ -11,11 +11,11 @@ const foodImg = new Image();
 foodImg.src = "apple.png"; // Image for the food
 
 // Load sound effects
-const bgMusic = new Audio("sounds/bgmusic.mp3");
+const bgMusic = new Audio("bgmusic.mp3");
 bgMusic.loop = true;
 bgMusic.play(); // Play Background sound
 
-    const gameoverSound = new Audio("sounds/gameover.mp3");
+    const gameoverSound = new Audio("gameover.mp3");
 
 // Snake properties
 const box = 20;
